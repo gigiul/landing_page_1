@@ -9,11 +9,11 @@ const Footer = () => {
             <div>
                 <h6 className='font-bold uppercase'>Solutions</h6>
                 <ul>
-                    <li>Travel</li>
-                    <li>Booking</li>
-                    <li>FLights</li>
-                    <li>Cruises</li>
-                    <li>Ground</li>
+                    <li className='py-1'>Travel</li>
+                    <li className='py-1'>Booking</li>
+                    <li className='py-1'>FLights</li>
+                    <li className='py-1'>Cruises</li>
+                    <li className='py-1'>Ground</li>
                 </ul>
             </div>
             <div>
@@ -29,21 +29,21 @@ const Footer = () => {
             <div>
                 <h6 className='font-bold uppercase'>Company</h6>
                 <ul>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Jobs</li>
-                    <li>Press</li>
-                    <li>Partners</li>
+                    <li className='py-1'>About</li>
+                    <li className='py-1'>Blog</li>
+                    <li className='py-1'>Jobs</li>
+                    <li className='py-1'>Press</li>
+                    <li className='py-1'>Partners</li>
                 </ul>
             </div>
             <div>
                 <h6 className='font-bold uppercase'>Legal</h6>
                 <ul>
-                    <li>Claims</li>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Policies</li>
-                    <li>Conditions</li>
+                    <li className='py-1'>Claims</li>
+                    <li className='py-1'>Privacy</li>
+                    <li className='py-1'>Terms</li>
+                    <li className='py-1'>Policies</li>
+                    <li className='py-1'>Conditions</li>
                 </ul>
             </div>
             <div className='col-span-2 py-8 md:pt-2'>
