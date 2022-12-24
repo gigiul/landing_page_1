@@ -49,7 +49,7 @@ const ImageSlider = () => {
         </div>
         <div className='flex justify-center py-2'>
             {slides.map((slide, slideIndex) => (
-                <div className='text-2xl cursor-pointer' key={slideIndex} onClick={() => goToSlide(slideIndex)}>
+                <div className='text-2xl cursor-pointer hover:text-black/50' key={slideIndex} onClick={() => goToSlide(slideIndex)}>
                     <RxDotFilled />
                 </div>
             ))} 
