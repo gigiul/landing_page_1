@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
 import Plans from "./components/Plans";
 import Rooms from "./components/Rooms";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Offers />
       <Plans />
       <Rooms />
+      <ImageSlider />
     </div>
   );
 }
